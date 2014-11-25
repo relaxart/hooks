@@ -8,9 +8,11 @@
       "role": "Maintainer"
     }
   ],
-  "post-package-install": [
-    "sh tools/hooks.sh"
-  ],
+  "scripts": {
+    "post-package-install": [
+      "sh tools/hooks.sh"
+    ],
+  },
   "require": {
     "squizlabs/php_codesniffer": "1.*"
   }
