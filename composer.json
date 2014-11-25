@@ -12,9 +12,6 @@
     "squizlabs/php_codesniffer": "1.*"
   },
   "bin": [
-    "tools/install.sh"
+    "tools/git-hook-install.sh"
   ],
-  "config": {
-    "bin-dir": "./bin"
-  }
 }
