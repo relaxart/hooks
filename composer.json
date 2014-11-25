@@ -8,6 +8,9 @@
       "role": "Maintainer"
     }
   ],
+  "post-install-cmd": [
+    "sh tools/hooks.sh"
+  ],
   "require": {
     "squizlabs/php_codesniffer": "1.*"
   },
