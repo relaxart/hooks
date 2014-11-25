@@ -13,5 +13,8 @@
   },
   "bin": [
     "bin/git-hooks"
-  ]
+  ],
+  "config": {
+    "bin-dir": "bin"
+  }
 }
