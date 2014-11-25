@@ -8,7 +8,7 @@
       "role": "Maintainer"
     }
   ],
-  "post-install-cmd": [
+  "post-package-install": [
     "sh tools/hooks.sh"
   ],
   "require": {
