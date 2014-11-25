@@ -1,11 +1,12 @@
 #!/usr/bin/env php
 <?php
-echo "Installing Git Hooks"
-echo ""
-echo "This will:"
-echo "- Remove all hooks"
-echo "- Add new hooks"
-echo ""
+error_reporting(E_ALL | E_STRICT);
+echo "Installing Git Hooks";
+echo "";
+echo "This will:";
+echo "- Remove all hooks";
+echo "- Add new hooks";
+echo "";
 
 
 /*read -p "Do you wish to continue? (y/n)"
